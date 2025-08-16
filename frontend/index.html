@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InventoryHub - Syed Wajid Mahboob</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(90deg, #3b82f6, #9333ea);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    footer {
+      background-color: #1f2937;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>InventoryHub</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Welcome to InventoryHub</h2>
+    <p>Professional Inventory Management by Syed Wajid Mahboob</p>
+  </div>
+
+  <main>
+    <section id="features" class="section">
+      <h3>Features</h3>
+      <ul>
+        <li>Real-time Inventory Tracking</li>
+        <li>Product Management</li>
+        <li>Add, Update, Delete Items</li>
+        <li>Professional Dashboard Interface</li>
+        <li>React + Vite Frontend</li>
+        <li>SQLite Backend for Storage</li>
+      </ul>
+    </section>
+
+    <section id="products" class="section">
+      <h3>Sample Products</h3>
+      <ul id="product-list">
+        <!-- React will populate products here -->
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <p>Email: wajidmahboobf23@nutech.edu.pk</p>
+      <p>GitHub: <a href="https://github.com/syedwajid-mahboob/InventoryHub_Project" target="_blank" style="color:#3b82f6;">InventoryHub_Project</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Syed Wajid Mahboob. All Rights Reserved.
+  </footer>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
